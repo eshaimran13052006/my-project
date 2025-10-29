@@ -1,0 +1,165 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Esha's Journal</title>
+    <style>
+           </style>
+</head>
+<body>
+ {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.background {
+    background-color: lightgray;
+    min-height: 100vh;
+    padding: 30px 0;
+}
+.container {
+    background-color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding: 16px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px silver; /* approximate */
+}
+.header {
+    background-color: pink;
+    border-radius: 8px;
+    padding: 10px 23px 10px 23px;
+    margin-bottom: 18px;
+    text-align: left;
+}
+.title {
+    font-size: 2em;
+    color: steelblue;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    display: block;
+}
+.subtitle {
+    color: lightcyan;
+    font-size: 1.2em;
+    margin-left: 7px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-row {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+}
+.sidebar {
+    background-color: pink;
+    color: pink;
+    padding: 13px 18px 13px 18px;
+    border-radius: 7px;
+    min-width: 185px;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    border: 2px solid pink;
+    font-size: 1.03em;
+    margin-top: 7px;
+    height: fit-content;
+}
+.sidebar-title {
+    font-size: 1.18em;
+    font-weight: bold;
+    border-bottom: 1px solid cadetblue;
+    display: block;
+    padding-bottom: 6px;
+    margin-bottom: 9px;
+}
+.sidebar ul {
+    padding-left: 11px;
+    margin: 0;
+    list-style: disc;
+}
+.sidebar ul li {
+    color: steelblue;
+    margin-bottom: 7px;
+}
+.entry-boxes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.entry {
+    background-color: honeydew;
+    border: 2px solid lightcyan;
+    border-radius: 7px;
+    padding: 9px 18px 9px 18px;
+    font-size: 1.06em;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+}
+.entry-title {
+    color: deepskyblue;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 6px;
+}
+.entry-date {
+    font-weight: bold;
+    margin-right: 6px;
+}
+.entry-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+.entry-text {
+    color: black;
+    flex: 1 1 0;
+    font-size: 1em;
+    font-weight: 400;
+}
+.entry-img {
+    width: 88px;
+    height: auto;
+    border-radius: 4px;
+    border: 1px solid lightcyan;
+    margin-left: 8px;
+    margin-top: 3px;
+    object-fit: cover;
+    background: azure;
+}
+<div class="background">
+    <div class="container">
+        <div class="header">
+            <span class="title">Esha's Journal</span>
+            <span class="subtitle">So fresh and so clean</span>
+        </div>
+        <div class="content-row">
+            <div class="sidebar">
+                <span class="sidebar-title">Friends</span>
+                <ul>
+                    <li>Jill Buddies</li>
+                    <li>Big Will</li>
+                    <li>Oscar the Librarian</li>
+                </ul>
+            </div>
+            <div class="entry-boxes">
+                <div class="entry">
+                    <div class="entry-title"><span class="entry-date">04/09/2025:</span> <span class="entry-head">makeup brushes</span></div>
+                    <div class="entry-content">
+                        <div class="entry-text">Yesterday, I went to the  makeup store and got some much needed lipglosses! (what better way to say I love myself than to buy myself a lipgloss?)</div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/makeup_brushes.jpg" class="entry-img" alt="makeup brush">
+                    </div>
+                </div>
+                <div class="entry">
+                    <div class="entry-title"><span class="entry-date">04/08/2025:</span> <span class="entry-head">Lip Gloss</span></div>
+                    <div class="entry-content">
+                        <div class="entry-text">My favorite makeup product is lipgloss, and my all time fav is rare beauty's. i love doing makeup and it mnakes sense as as one enhance the god gifted beauty and all. i m writing this so that everyone can get to know thatt i love makeup.</div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/lipgloss.jpg" class="entry-img" alt="lip gloss">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
